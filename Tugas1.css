@@ -1,0 +1,129 @@
+.container2{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(inosoft.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+
+}
+
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    height: 500px;
+    width: 750px;
+    background-color: orange;
+    border: solid 5px black;
+    padding: 5px;
+    align-items: center;
+ 
+}
+.image-container{
+    text-align: center;
+    
+}
+
+
+.paragraph {
+    color: blue;
+    text-decoration: underline;
+    
+}
+p{
+    word-spacing: 1pt;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+    height: 75px;
+
+    cursor: pointer;
+}
+
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: #fff;
+    font-size: 100px;
+}
+p1{
+    color: white;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(LogoInosoft.png);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+
+}    
+
+.card1{
+    background-image: url(CSSlogo.png);
+    align-self: auto;
+}
+.card2{
+    background-image: url(HTML.png);
+}
+.card3{
+    background-image: url(bootstrap.jpg);
+}
+.card4{
+    background-image: url(VUE.jpg   );
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+.h5{
+   color: blue;    
+}
